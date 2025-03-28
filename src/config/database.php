@@ -19,11 +19,11 @@ $data_connection = "
 $conn = pg_connect ($data_connection);
 
 if(!$conn){
-    echo "connection error"
+    echo "connection error";
 } else {
-    echo "success !!!"
+    echo "success !!!";
 }
 
-pg_close($conn)
+//pg_close($conn)
 
 ?>
