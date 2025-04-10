@@ -1,10 +1,18 @@
 <?php
 
+/*
 $host = "localhost";
 $port = "5432";
 $dbname = "petstore";
 $user = "postgres";
 $password = "200506";
+*/
+
+$host = "aws-0-us-east-1.pooler.supabase.com";
+$port = "6543";
+$dbname = "postgres";
+$user = "postgres.dgoecevtghgbmolofptm";
+$password = "unicesmag@@";
 
 $data_connection = "
 
@@ -16,9 +24,9 @@ $data_connection = "
 
 ";
 
-$conn = pg_connect ($data_connection);
+$conn = pg_connect($data_connection);
 
-if(!$conn){
+if (!$conn) {
     echo "connection error";
 } else {
     echo "success !!!";
