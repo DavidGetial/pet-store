@@ -1,5 +1,6 @@
 <?php
 
+// Local DB Connection
 /*
 $host = "localhost";
 $port = "5432";
@@ -8,6 +9,7 @@ $user = "postgres";
 $password = "200506";
 */
 
+// Supabase DB Connection
 $host = "aws-0-us-east-1.pooler.supabase.com";
 $port = "6543";
 $dbname = "postgres";
